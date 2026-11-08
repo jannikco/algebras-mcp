@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "status": "ready",
+  "verification": "mock-only",
+  "releaseEligible": true,
+  "maintainer": "jannikco",
+  "license": "MIT",
+  "sourceRevision": "ce58f87acb13b4dcf610ad2cdcb62a0c2b68b5975e038bd6954550fd7d04d49d",
+  "evidence": [
+    "Source-backed provider setup metadata",
+    "Offline configuration and MCP protocol tests"
+  ],
+  "provenance": [
+    "https://platform.algebras.ai/api/v1/openapi.json"
+  ],
+  "id": "algebras-mcp",
+  "kind": "mcp-setup",
+  "product": "pipmcp",
+  "title": "Algebras MCP setup and connection checker",
+  "description": "Generate Algebras MCP client configuration, inspect available tools and validate hosted endpoint access through PipMCP.",
+  "operationIds": [],
+  "appSlug": "algebras",
+  "appName": "Algebras",
+  "providerDocs": "https://platform.algebras.ai/api/v1/openapi.json",
+  "providerWebsite": "https://www.algebras.ai/",
+  "authentication": {
+    "type": "api_key_header",
+    "requiredCredentialFields": [
+      "api_key"
+    ],
+    "requiredHeaderNames": [],
+    "helpUrl": "https://docs.algebras.ai/general/getting-started/",
+    "tenantRequired": false,
+    "accountParameterNames": []
+  },
+  "attributionSlug": "github-algebras-mcp",
+  "factory": "leadadapter-pipmcp",
+  "generatorVersion": 1
+}
